@@ -3,4 +3,7 @@ gem 'sinatra'
 gem 'haml'
 gem 'sass'
 gem 'coffee-script'
-gem 'therubyracer'
+
+group :production do
+  gem 'therubyracer-heroku'
+end
