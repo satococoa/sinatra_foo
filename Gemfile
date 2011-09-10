@@ -3,7 +3,6 @@ gem 'sinatra'
 gem 'haml'
 gem 'sass'
 gem 'coffee-script'
-
-group :production do
-  gem 'therubyracer-heroku'
-end
+gem 'guard-pow'
+gem 'rb-fsevent'
+gem 'growl'

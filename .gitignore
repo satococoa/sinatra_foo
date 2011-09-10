@@ -1,1 +1,4 @@
-.sass-cache
+.bundle/
+bundle/
+.sass-cache/
+tmp/
